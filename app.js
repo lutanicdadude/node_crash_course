@@ -1,7 +1,9 @@
-const amount = 12;
+// Modules 
 
-if(amount < 10) {
-    console.log("Small number");
-} else {
-    console.log("Large number");
-}
+const names = require("./4-names");
+const sayHi = require("./5-utils");
+// console.log(names);
+
+sayHi("susan")
+sayHi(names.john)
+sayHi(names.peter)
